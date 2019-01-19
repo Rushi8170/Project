@@ -1,0 +1,32 @@
+body{
+    background-color: #9e9e9e;
+}
+
+.container-fluid{
+    max-width: 1366px;
+    margin: 100px auto;
+}
+
+.image{
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 20px;
+
+}
+
+.image wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image img{
+    position: absolute;
+    top: 50%; left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    min-height: 100%;
+}
